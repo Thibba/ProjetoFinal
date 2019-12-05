@@ -11,7 +11,7 @@
                 <form action="CadastroPetResult.php" method="post">
                 <div class="form-row">
                     <div class="form-group col-md-12">
-                        <label for="nome">Id_cliente</label>
+                        <label for="id_cliente">Id_cliente</label>
                         <input type="text" class="form-control" id="id_cliente" name="id_cliente" placeholder="Digite o Id do Cliente">
                     </div>                    
                 </div>                
@@ -22,11 +22,11 @@
                     </div>                    
                 </div>                                
                 <div class="form-group">
-                    <label for="endereco">raca</label>
+                    <label for="raca">raca</label>
                     <input type="text" class="form-control" id="raca" name="raca" placeholder="Digite a Raça do Pet">            
                 </div>  
                 <div class="form-group">
-                    <label for="numero">cor</label>
+                    <label for="cor">cor</label>
                     <input type="text" class="form-control" id="cor" name="cor" placeholder="Raça a Cor do pet">
                 </div>
                         
