@@ -3,7 +3,7 @@
                    <a class="nav-link active text-warning" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-warning" href="#">Link</a>
+                <a class="nav-link text-warning" href="gerenciarClientes.php">Gerenciar Clientes</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link text-warning" href="#">Link</a>

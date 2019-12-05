@@ -10,7 +10,7 @@
                     Agendamento de Banho e Tosa
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Cadastro de Clientes</h5>
+                    <h5 class="card-title">Cadastro aqui os Clientes</h5>
                     <p class="card-text">Cadastre aqui os clientes do Pet.</p>
                     <a href="CadastroClientes.php" class="btn btn-warning">Clientes</a>                    
                 </div>
@@ -34,8 +34,8 @@
                     Agendamento
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Agente o Banho e Toda</h5>
-                        <p class="card-text">Agende aqui o Banho e Toda.</p>
+                    <h5 class="card-title">Agente o Banho e Tosa</h5>
+                        <p class="card-text">Agende aqui o Banho e Tosa.</p>
                         <a href="buscarClientes.php" class="btn btn-warning">Agendamento</a>
                 </div>
             </div>      

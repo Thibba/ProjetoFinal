@@ -60,7 +60,7 @@
                 </div>                        
                 <div class="row align-items-end">
                     <div class="col-12">
-                        <button type="submit" class="btn btn-primary">Cadastra</button>     
+                        <button type="submit" class="btn btn-warning">Cadastra</button>     
                     </div>
                 </div>                                                                                                                        
             </form>
