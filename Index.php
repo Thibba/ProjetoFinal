@@ -1,29 +1,46 @@
 <?php
-    require('Shared\layout_header.php');
-?> 
-    <div class="container-fluid">
-        <div class="col"></div>
-            <ul class="nav p-3 mb-2 bg-dark text-warning">
-                <li class="nav-item text-warning">
-                    <a class="nav-link active text-warning" href="#">Ativo</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-warning" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-warning" href="#">Link</a>
-                </li>
-                <li class="nav-item text-warning">
-                    <a class="nav-link disabled text-warning" href="#">Desativado</a>
-                </li>
-            </ul
-            <h1>Teste Include BootStrap</h1>
+    require "Shared/layout_header.php";
+    require "nav.php";
+?>
+<div class="container">
+    <div class="row align-items-center">
+        <div class="col">    
+            <div class="card">
+                <div class="card-header">
+                    Agendamento de Banho e Tosa
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Cadastro aqui os Clientes</h5>
+                    <p class="card-text">Cadastre aqui os clientes do Pet.</p>
+                    <a href="CadastroClientes.php" class="btn btn-warning">Clientes</a>                    
+                </div>
+            </div>      
         </div>
-        <div class="teste">
-            <h1 class="teste">Teste de link Css</h1>
+        <div class="col">
+            <div class="card">
+                <div class="card-header">
+                    Cadastro de Pets
+                </div>
+                <div class="card-body">
+                <h5 class="card-title">Cadastre aqui os Pets</h5>
+                <p class="card-text">Pode ter mais de um pet por Cliente.</p>
+                <a href="cadastroPet.php" class="btn btn-warning">Pet</a>
+            </div>
+        </div>      
         </div>
-            
+        <div class="col">    
+            <div class="card">
+                <div class="card-header">
+                    Agendamento
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Agente o Banho e Tosa</h5>
+                        <p class="card-text">Agende aqui o Banho e Tosa.</p>
+                        <a href="buscarClientes.php" class="btn btn-warning">Agendamento</a>
+                </div>
+            </div>      
+        </div>
     </div>
 <?php
-    require('Shared\layout_footer.php');
-?>  
+    require 'Shared/layout_footer.php'
+?>            
