@@ -12,9 +12,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Cadastro de Clientes</h5>
                     <p class="card-text">Cadastre aqui os clientes do Pet.</p>
-                    <a href="CadastroClientes.php" class="btn btn-primary">Clientes</a>
-                    <h5 class="card-title">Gerenciar</h5>                    
-                    <a href="CadastroClientes.php" class="btn btn-primary">Clientes</a>
+                    <a href="CadastroClientes.php" class="btn btn-warning">Clientes</a>                    
                 </div>
             </div>      
         </div>
@@ -26,7 +24,7 @@
                 <div class="card-body">
                 <h5 class="card-title">Cadastre aqui os Pets</h5>
                 <p class="card-text">Pode ter mais de um pet por Cliente.</p>
-                <a href="buscarClientes.php" class="btn btn-primary">Pet</a>
+                <a href="cadastroPet.php" class="btn btn-warning">Pet</a>
             </div>
         </div>      
         </div>
@@ -38,7 +36,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Agente o Banho e Toda</h5>
                         <p class="card-text">Agende aqui o Banho e Toda.</p>
-                        <a href="#" class="btn btn-primary">Agendamento</a>
+                        <a href="buscarClientes.php" class="btn btn-warning">Agendamento</a>
                 </div>
             </div>      
         </div>

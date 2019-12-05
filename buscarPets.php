@@ -21,8 +21,8 @@
     $tabela = funSelect('clientes' , '*' , $argumentos) 
 
 ?>
-<h4 class='p-2 m-2 bg-secondary text-warning text-center'>Clientes Localizados</h4>
 
+<h4 class='p-2 m-2 bg-secondary text-warning text-center'>Clientes Localizados</h4>
 <table class='m-2 w-75 mx-auto table table-striped table-dark text-warning'>
     <thead class='text-center'>
         <tr>
@@ -44,10 +44,12 @@
 
 
             </tr>";
-    }
+        }
+        echo "<td scope='col'><p class='m-2'><a href='principal.php' class='btn btn-warning'>Voltar</a></p></td>";
 ?>   
 </table>
-<p class='m-2'><input class='btn btn-warning text-white' type='submit' value='Voltar' onclick=location.replace('Index.php?opc=G&acao=B') /></p>	
+
+
 
 <?php
     require 'Shared/layout_footer.php'
