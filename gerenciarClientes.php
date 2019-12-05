@@ -33,6 +33,7 @@ $argumentos = "WHERE 1 = 1 ORDER BY NOME ";
 <?php			
         for ( $i = 0 ; $i < count($tabela) ; $i++){	
         echo "<tr class='text-center'>
+                <td scope='col'>". $tabela[$i]['id_cliente'] ."</td>
                 <td scope='col'>". $tabela[$i]['nome'] ."</td>
                 <td scope='col'>". $tabela[$i]['celular'] ."</td>
                 <td scope='col'> 
